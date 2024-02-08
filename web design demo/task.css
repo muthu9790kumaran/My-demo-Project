@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: #030325;  
+    background-size: cover;  
+    top: 0%;
+    position: sticky; 
+}
+.logo img{
+padding: 20px ;
+margin-top: -55px;
+height: 80px;
+overflow-clip-margin: content-box;
+border-radius: 50px;
+margin-left: 30px;
+}
+.fa-magnifying-glass{
+    color: white;
+margin-top: 7px ;
+padding: 20px;
+cursor: pointer;  
+}
+.fa-magnifying-glass:hover {
+    color: rgb(18, 53, 211);
+}
+
+.pro{
+    display: flex;
+    font-size: 18px;
+    margin-left: 300px;
+    justify-content: center;
+    list-style-type: none;
+}
+.pro li{
+    margin: 25px;
+}
+.pro a:hover{
+    color: rgb(18, 53, 211);
+}
+
+
+.btn {
+    margin: 18px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    float: right;
+}
+.btn:hover{
+    background-color: rgb(6, 49, 245);
+    color: white;
+
+}
+.btn-sm {
+    padding: 8px 20px;
+    vertical-align: middle;
+}
+a{
+text-decoration: none;
+color: white;
+}
+.head{
+    color: white;
+    margin-top: -55px;
+    margin-left: 100px; 
+}
+#back {
+    height: 540px;
+    width: 100%;
+    background-color:#cde0f2 ;
+    margin: 0px;
+}
+.title h1{
+    font-size: 50px;
+    font-weight: 600px; 
+    color: #070707;
+    margin-left: 260px;
+    margin-top: 0px;
+    
+}
+.title p{
+    font-size: 25px;
+    max-width: 88%;
+    line-height: 24px;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(54, 53, 53);
+    
+}
+.aa{
+    text-align: center;
+    font-size: 16px;
+    width: 250px;
+    background-color:rgb(5, 31, 87)  ;
+    color: white;
+    margin-left: 300px;
+    margin-top: 50px;
+    height: 50px;
+    border-radius: 3px;
+    box-shadow: 5px 3px 6px;
+}
+.bb{
+    background-color:#cde0f2 ;  
+    color: rgb(28, 90, 223);
+    text-align: center;
+    font-size: 16px;
+    width: 250px;
+    margin-left:200px;
+    height: 50px;
+    border-radius: 3px;
+    box-shadow: 5px 1px 6px;
+
+} 
+.cla button:hover{
+    background-color:rgb(28, 90, 223);
+    color: white;
+}
+.cla button{
+    cursor: pointer;
+    border-color: rgb(28, 90, 223);
+}
+.para{
+    display: flex;
+    margin-top: 50px;
+    
+}
+.para h2{
+    margin-left: 100px;
+    font-size: 20px;
+    color:rgb(97,92,92) ;
+}
+.para h3{
+    margin-left: 100px;
+    font-size: 15px;
+    color:rgb(97, 92, 92) ;
+}
+.box{
+    height: 265px;
+    width: 186px;
+    background-color: white;
+    float: left;
+    margin: 20px;
+    box-shadow:0px 0.5px 1px ;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+.box:hover {
+    border: 2px solid rgb(11, 70, 179);
+    transition: none;
+}
+.box h1{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 25px;
+    color: #181414;
+    font-family: "source-sans-pro",helvetica;
+}
+.box img{
+    margin-left: 25px;
+    margin-top: 30px;
+
+}
+
+.pp {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "source-sans-pro",helvetica;
+    color:rgb(97, 92, 92) ;
+    
+}
+.brand{
+    margin-top: 0px;
+    margin-left: 60px;
+    
+}
+.beni{
+    font-size: 20px;
+    margin-top: 300px;
+    text-align: center;
+    font-family: "source-sans-pro",helvetica;
+    color: #181414;
+}
+.svg{
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    
+}
+.svg img{ 
+    padding: 130px ;
+    margin-top: -90px;
+} 
+   
+    
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    padding: 30px;
+    
+
+}
+.heading h2 {
+    margin-inline-start: 110px;
+    margin-top: -150px;
+    color: rgb(36, 33, 33) ;
+    font-family: "source-sans-pro",helvetica; 
+}
+.paragh{
+    display: flex;
+    justify-content: center;
+    font-family: "source-sans-pro",helvetica;
+    text-wrap: wrap;
+    text-align: center;
+    margin-inline-start: 110px;
+    margin-top: -130px;font-size: 20px;
+    color: rgb(36, 33, 33) ;
+}
+.hant button:hover{
+    background-color:rgb(28, 90, 223);
+    color: white;
+}
+.hant button{
+    cursor: pointer;
+    width: 300px;
+    height: 50px ;
+    border-color: rgb(28, 90, 223);
+}
+.hant{
+    margin-top: 100px;
+}
+.cc{
+    background-color:rgb(5, 31, 87)  ;
+    color: white;
+}
+.dd{
+    color: rgb(28, 90, 223);
+    background-color: white;
+}
+.lll{
+    width: 100%;
+    height: 500px;
+    background-color: #030325 ;
+    margin-top: 150px;
+}
+.kotation{
+    font-size: 38px;
+    justify-content: center;
+    text-align: center;
+    padding:200px ;
+    color: white;
+    box-sizing: inherit;
+}
+.bot img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* justify-content: center; */
+    margin-left: 14%;
+    margin-top: -80px;
+    opacity: 0.4;
+    
+}
+
+.bot img:hover{
+    opacity: 1.0;
+    transition: 1.5s;
+    transform:scale(1.2);
+}   
+

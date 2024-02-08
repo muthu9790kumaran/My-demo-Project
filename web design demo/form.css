@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-weight: bold;
+    font-family: Georgia;
+    /* letter-spacing: 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.head{
+    background-color: white;
+    border-radius: 25px;
+    padding: 40px 40px;
+    position: relative;
+   
+}
+ h2{
+    text-align: center;
+    color: black;
+    /* position: absolute; */
+    font-size: 30px;
+    margin-top: 5px;
+    text-shadow: 0px 0px 5px;
+    
+}
+
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+
+}
+
+.form-control input{
+    display: block;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+.form-control input:focus{
+    outline: none;
+    border-color: #777;
+}
+.form-control.success input{
+    border:2px solid rgb(10, 228, 10) ;
+}
+.form-control.error input{
+    border: 2px solid red;
+}
+.form-control i{
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+.form-control.success i.fa-circle-check{
+    color:rgb(10, 228, 10) ;
+    visibility: visible;
+}
+.form-control.error i.fa-circle-exclamation{
+    color: red;
+    visibility: visible;
+}
+.form-control small{
+    color: red;
+    visibility: hidden;
+    position: absolute;
+}
+.form-control.error small{
+    visibility: visible;
+}
+.form button{
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    text-shadow: 0px 0px 5px;
+}
+ .mks{
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    width:350px;                                   
+    height: 530px;
+    overflow: hidden;
+    background-color: black;
+}
+ /* .mks::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(transparent,transparent,blue,blue,blue);
+    z-index: -1;
+    animation: animate 6s linear infinite;
+    transform-origin: bottom right;
+    animation-delay: -3s;
+} */
+/* .mks::after{
+    content: '';
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(transparent,transparent,blue,blue,blue);
+    z-index: -1;
+    animation: animate 6s linear infinite;
+    transform-origin: bottom right;
+} */
+/* @keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}   */
